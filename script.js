@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("loader-wrapper").style.display = "none";
 
         // Mostrar el contenido de la página
-        document.getElementById("content").style.display = "block";
+        //document.getElementById("content").style.display = "block";
     }, 2000);
 });
 
@@ -50,8 +50,13 @@ btnswitch.addEventListener('click', () => {
 	const logoGithubTools = document.querySelector('.logoGithubTools');
 	const logoPhpTools = document.querySelector('.logophpTools');
 	const logoVueTools = document.querySelector('.logoVueTools');
+	const logoMysqlTools = document.querySelector('.logoMysqlTools');
+	const logoPithonTools = document.querySelector('.logoPithonTools');
+	const logoNodeTools = document.querySelector('.logoNodeTools');
+	const logoDockerTools = document.querySelector('.logoDockerTools');
 
 
+	
 	
 
 	if (document.body.classList.contains('ligth')) {
@@ -63,8 +68,12 @@ btnswitch.addEventListener('click', () => {
         logoGithubTools.src = 'assets/tools/githubon.png';
         imagenLigth.src = 'assets/logo/Recurso35on.svg';
         imagenDark.src = 'assets/logo/Recurso30on.png';
-		logoPhpTools.src = 'assets/tools/php1.png';
-		logoVueTools.src = 'assets/tools/vueoff.png';
+		logoPhpTools.src = 'assets/tools/php.png';
+		logoVueTools.src = 'assets/tools/vue.png';
+		logoMysqlTools.src = 'assets/tools/mysql.png';
+		logoPithonTools.src = 'assets/tools/piton.png';
+		logoNodeTools.src = 'assets/tools/node.png';
+		logoDockerTools.src = 'assets/tools/docker.png';
     } else {
         imagenTools.src = 'assets/tools/htmloff.png';
         logoCssTools.src = 'assets/tools/cssoff.png';
@@ -74,9 +83,12 @@ btnswitch.addEventListener('click', () => {
         logoGithubTools.src = 'assets/tools/githuboff.png';
         imagenLigth.src = 'assets/logo/Recurso33off.svg';
         imagenDark.src = 'assets/logo/Recurso32off.png';
-		logoPhpTools.src = 'assets/tools/php.png';
-		logoVueTools.src = 'assets/tools/vue.png';
-
+		logoPhpTools.src = 'assets/tools/phpoff.png';
+		logoVueTools.src = 'assets/tools/vueoff.png';
+		logoMysqlTools.src = 'assets/tools/mysqloff.png';
+		logoPithonTools.src = 'assets/tools/pitonoff.png';
+		logoNodeTools.src = 'assets/tools/nodeoff.png';
+		logoDockerTools.src = 'assets/tools/dockeroff.png';
 
     }
 });
@@ -95,6 +107,11 @@ if(localStorage.getItem('ligth') === 'true') {
 	const logoGithubTools = document.querySelector('.logoGithubTools');
 	const logoPhpTools = document.querySelector('.logophpTools');
 	const logoVueTools = document.querySelector('.logoVueTools');
+	const logoMysqlTools = document.querySelector('.logoMysqlTools');
+	const logoPithonTools = document.querySelector('.logoPithonTools');
+	const logoNodeTools = document.querySelector('.logoNodeTools');
+	const logoDockerTools = document.querySelector('.logoDockerTools');
+
 
 
 	imagenTools.src = 'assets/tools/htmlon.png';
@@ -107,6 +124,10 @@ if(localStorage.getItem('ligth') === 'true') {
 	imagenDark.src = 'assets/logo/Recurso30on.png';
 	logoPhpTools.src = 'assets/tools/php.png';
 	logoVueTools.src = 'assets/tools/vue.png';
+	logoMysqlTools.src = 'assets/tools/mysql.png';
+	logoPithonTools.src = 'assets/tools/piton.png';
+	logoNodeTools.src = 'assets/tools/node.png';
+	logoDockerTools.src = 'assets/tools/docker.png';
 
 
 } else {
@@ -120,6 +141,10 @@ if(localStorage.getItem('ligth') === 'true') {
 	const logoGithubTools = document.querySelector('.logoGithubTools');
 	const logoPhpTools = document.querySelector('.logophpTools');
 	const logoVueTools = document.querySelector('.logoVueTools');
+	const logoMysqlTools = document.querySelector('.logoMysqlTools');
+	const logoPithonTools = document.querySelector('.logoPithonTools');
+	const logoNodeTools = document.querySelector('.logoNodeTools');
+	const logoDockerTools = document.querySelector('.logoDockerTools');
 
 
 	imagenTools.src = 'assets/tools/htmloff.png';
@@ -130,9 +155,12 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoGithubTools.src = 'assets/tools/githuboff.png';
 	imagenLigth.src = 'assets/logo/Recurso33off.svg';
 	imagenDark.src = 'assets/logo/Recurso32off.png';
-	logoPhpTools.src = 'assets/tools/php1.png';
-	logoVueTools.src = 'assets/tools/vueoffpng';
-
+	logoPhpTools.src = 'assets/tools/phpoff.png';
+	logoVueTools.src = 'assets/tools/vueoff.png';
+	logoMysqlTools.src = 'assets/tools/mysqloff.png';
+	logoPithonTools.src = 'assets/tools/pitonoff.png';
+	logoNodeTools.src = 'assets/tools/nodeoff.png';
+	logoDockerTools.src = 'assets/tools/dockeroff.png';
 
 }
 

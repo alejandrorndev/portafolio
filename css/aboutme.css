@@ -97,7 +97,7 @@
     margin-bottom: 6rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .toolsText {
@@ -113,6 +113,7 @@
     width: 50;
 }
 .tollsIcons {
-    width: 10%;
-    height: 10%;
+    width: 100px; /* ajusta el ancho de las imágenes según sea necesario */
+    height: auto; /* para mantener la proporción */
+    margin: 20px;
 }
