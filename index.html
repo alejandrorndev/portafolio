@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueri.css">
+  
+    <link rel="stylesheet" href=" assets/font-awesome/font-awesome/css/all.css">
+    <script src="https://kit.fontawesome.com/8df4f4125a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Alejandro Restrepo | Frontend Developer</title>
+    <link rel="icon" type="image/ico" href="assets/favIcon/favicon.jpg"/>
+</head>
+<body>
+    <div class="loader-wrapper" id="loader-wrapper">
+        <div class="loader" id="loader">
+            <span class="l">L</span>
+            <span class="o">o</span>
+            <span class="a">a</span>
+            <span class="d">d</span>
+            <span class="i">i</span>
+            <span class="n">n</span>
+            <span class="g">g</span>
+            <span class="d1">.</span>
+            <span class="d2">.</span>
+        </div>
+    </div>
+    <div class="container-main">
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+        <div class="container-full">
+            <div class="container-menu"> 
+                <nav class="menu-container">
+                    <div class="menu-picture">
+                        <img class="logoDark" src="assets/logo/Recurso32off.png" alt="">
+                    </div>
+                    <div class="container_switch">
+                        <div class="switch" id="switch">
+                            <span><img class="ico_dark" src="assets/img/btn_dark_ligth/moon-solid.svg" alt=""></span>
+                            <span><img class="ico_ligth" src="assets/img/btn_dark_ligth/sun-solid.svg" alt=""></span>
+                        </div>
+                    </div>
+                    
+                    <button id="btn-home" class="home menu-btn">
+                        <i class="fas fa-2x fa-home mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="home">Inicio</span>
+                    </button>
+                    <button id="btn-about" class="menu-btn">
+                        <i class="fas fa-2x fa-user mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="about"><span>Sobre</span> Mí</span>
+                    </button>
+                    <button id="btn-portfolio" class="menu-btn">
+                        <i class="fas fa-2x fa-briefcase mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="portfolio">Portafolio</span>
+                    </button>
+                    <button id="btn-experiencia" class="menu-btn">
+                        <i class="fas fa-2x fa-book mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="experiencia">Experiencia</span>
+                    </button>                   
+                    <button id="btn-resumen" class="menu-btn">
+                        <i class="fas fa-2x fa-graduation-cap mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="resumen">Estudios</span>
+                    </button>
+                    <button id="btn-contact" class="menu-btn">
+                        <i class="fas fa-2x fa-mail-bulk mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="contact">Contáctame</span>
+                    </button>
+                    <div id="flags" class="flags">
+                        <div class="flags_item" data-language="es">
+                            <img class="flags_img" src="assets/icons/flag/es.svg" alt="">
+                        </div>
+                        <div class="flags_item" data-language="en">
+                            <img class="flags_img" src="assets/icons/flag/en.svg" alt="">
+                        </div>
+                    </div> 
+                </nav>
+            </div>
+            <div class="cursor"></div>
+            <div class="cursor2"></div>
+            <div class="container-header">
+                <div class="bg-img">
+                    <picture class="picture-bg"></picture>
+                </div>
+                <div class="pictureMe">
+                    <picture class="me">
+                        <section class="ventanaModal">
+                            <input type="checkbox" id="btn-modal">
+                                <label for="btn-modal" class="lbl-modal">
+                                    <img src="assets/img/Alejo.png" id="btn-juego" alt="Imagen y o foto de perfil">
+                                </label>
+                                <div class="modal">
+                                    <div class="contenedor">
+                                        <header>¡Juguemos!</header>
+                                        <label id="close-game" for="btn-modal">X</label>
+                                        <div class="contenedor pointer">
+                                            <span id="puntos"></span>
+                                            <span id="ned"></span>
+                                            <button id="game-play" class="btn btn-primary">PLAY</button>
+                                            <span id="tiempo"></span>
+                                        </div>
+                                        <div class="contenedorGame">
+                                            <div id="player"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
+                        <h1 class="name-me">Alejandro Restrepo</h1>
+                        <h2 class="ocupation" data-section="header" data-value="ocupation">Desarrollador Web.</h2>
+                        <div class="social-media">
+                            <a href="https://github.com/alejandrorndev" target="_blank"><i class="fab fa-github icongithub colorletter"></i></a>
+                            <a href="https://www.linkedin.com/in/alejandro-stiven-restrepo-naranjo-2bb429186/e/" target="_blank"> <i class="fab fa-linkedin-in colorletter"></i></a>
+                        </div>
+                    </picture>
+                    <div class="footer-header">
+                        <div class="download">
+                            <div class="cvdownload">
+                                <i class="fas fa-download"></i>
+                                <a download="CV Alejandro Restrepo" class="descv" data-section="footer-header" data-value="download" href="./assets/CV/CV-ALEJANDRO.pdf">Descargar CV</a>
+                            </div>
+                        </div>
+                        <div class="contact-me">
+                            <div class="contactme">
+                                <i class="fas fa-paper-plane"></i>
+                                <a class="descv" data-section="footer-header" data-value="contact" href="mailto:alejandrorn.dev@gmail.com" target="_blank">Contáctame</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-information">
+                <div id="content-home" class="content open ">
+                    <div class="inside-content logo_diegu">
+                        <picture class="conta-logo">
+                            <img src="assets/logo/Recurso33off.svg" class="logo" alt="Logo Diegu">
+                        </picture>
+                    </div>
+                </div>
+                <article id="content-about" class="content closed">
+                    <div class="inside-content">
+                        <div class="about-title" id="container_title">
+                            <h2 class="title" data-section="about-me" data-value="aboutme" id="title">Sobre mí</h2> 
+                        </div>
+                        <div class="text-about" class="colorletter diegoletter">
+                            <p class="descriptionAboutme" data-section="about-me" data-value="description">
+                                ¿Que tal Mundo? mi nombre es <span> Alejandro Stiven Restrepo Naranjo</span>, pero puedes llamarme  <span>Alejo.</span> Soy una persona autónoma, creativa y disciplinada, flexible ante el cambio y con un alto sentido de responsabilidad tanto en el ámbito profesional como en el personal. Poseo facilidad de adaptación y capacidad para trabajar en equipo, incluso en condiciones de alta presión. Siempre actúo de acuerdo con mis principios y respeto las normas y leyes en cualquier entorno. Me caracterizo por ser eficaz y eficiente, con valores sólidos que guían mi comportamiento. Además, tengo una gran capacidad de desempeño y siempre me distingo por mis buenos modales. En el ámbito profesional, he desarrollado habilidades sólidas en <span>HTML</span> para crear estructuras robustas y bien definidas en mis proyectos, mientras que mis conocimientos en <span> CSS </span> me han ayudado a darles un aspecto atractivo y profesional. Complementando esto, mi conocimiento en <span> JavaScript</span> me ha permitido agregar interactividad y funcionalidad a mis creaciones.<br><br>Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión.</span> <br><br>Herramientas que utilizo en mis Proyectos:
+                            </p>
+                            <div class="ContainerTools">
+                                <img class="logoTools tollsIcons" src="assets/tools/htmloff.png" alt="">
+                                <img class="logoCssTools tollsIcons" src="assets/tools/cssoff.png" alt="">
+                                <img class="logoJavascriptTools tollsIcons" src="./assets/tools/javascriptoff.png" alt="">
+                                <img class="logoSassTools tollsIcons" src="./assets/tools/sassoff.png" alt="">
+                                <img class="logoGitTools tollsIcons" src="./assets/tools/gitoff.png" alt="">
+                                <img class="logoGithubTools tollsIcons" src="./assets/tools/githuboff.png" alt="">
+                                <img class="logophpTools tollsIcons" src="./assets/tools/php1.png" alt="">
+                                <img class="logoVueTools tollsIcons" src="./assets/tools/vueoff.png" alt="">
+                                <img class="logoTools tollsIcons" src="assets/tools/htmloff.png" alt="">
+                                <img class="logoCssTools tollsIcons" src="assets/tools/cssoff.png" alt="">
+                                <img class="logoJavascriptTools tollsIcons" src="./assets/tools/javascriptoff.png" alt="">
+                                <img class="logoTools tollsIcons" src="assets/tools/htmloff.png" alt="">
+                                <img class="logoCssTools tollsIcons" src="assets/tools/cssoff.png" alt="">
+                                <img class="logoJavascriptTools tollsIcons" src="./assets/tools/javascriptoff.png" alt="">
+                                <img class="logoTools tollsIcons" src="assets/tools/htmloff.png" alt="">
+                                <img class="logoCssTools tollsIcons" src="assets/tools/cssoff.png" alt="">
+                                <img class="logoJavascriptTools tollsIcons" src="./assets/tools/javascriptoff.png" alt="">
+                                <img class="logoTools tollsIcons" src="assets/tools/htmloff.png" alt="">
+                                <img class="logoCssTools tollsIcons" src="assets/tools/cssoff.png" alt="">
+                                <img class="logoJavascriptTools tollsIcons" src="./assets/tools/javascriptoff.png" alt="">
+
+                            </div>
+                        </div>
+                        <div class="box-information">
+                            <div class="information-aboutme">
+                                <p class="infMe" data-section="about-me" data-value="residence">Residencia: Colombia - Medellín</p>
+                                <p class="infMe1" data-section="about-me" data-value="adress">Dirección: Medellín - Caicedo</p>
+                                <p class="infMe2" data-section="about-me" data-value="E-mail">Correo: alejandrorn.dev@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="box-interest">
+                            <div class="interest-title">
+                                <div id="container_title" class="titleLine">
+                                    <h2 class="title interes" data-section="about-me" data-value="interests" id="title">Intereses</h2>
+                                </div>
+                                <ul class="text-about">
+                                    <div class="container_interest">
+                                        <i class="fas fa-campground iconInterest" style="color: #FBB03B;"></i>
+                                        <p class="inte" data-section="about-me" data-value="interests1">
+                                            Una de las cosas que más disfruto es acampar y hacer trekking,Explorar las montañas y rincones que tiene nuestro territorio es una experiencia invaluable para mí.
+                                        </p>
+                                    </div><br>
+                                    <div class="container_interest">
+                                        <i class="fas fa-suitcase-rolling colorletter iconInterest" style="color: #FBB03B;"></i>
+                                        <p class="inte inte1" data-section="about-me" data-value="interests2">
+                                            Otro placer culposo es el viajar y conocer nuevas culturas junto con mi compañera de vida, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.
+                                        </p>
+                                    </div><br>
+                                    <div class="container_interest">
+                                        <i class=""></i>
+                                        <i class="fas fa-cube iconInterest" style="color: #FBB03B;"></i>
+                                        <p class="inte inte2" data-section="about-me" data-value="interests3">
+                                            Dado mi gusto por los desafíos mentales, me fascina resolver acertijos y cubos Rubik. Puedo pasar horas concentrado en resolver nuevos enigmas y desentrañar los secretos detrás de cada desafío.
+                                        </p>
+                                    </div><br>
+                                    <div class="container_interest">
+                                        <i class="fas fa-gamepad iconInterest" style="color: #FBB03B;"></i>
+                                        <p class="inte inte2" data-section="about-me" data-value="interests3">
+                                            Como soy un apasionado de los videojuegos en línea, y disfruto sumergirme en largas sesiones de juego durante todo el fin de semana. Para mí, no hay nada como la emoción y la diversión que experimento al participar en maratones de juegos desde la comodidad de mi hogar.
+                                        </p>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div><br><br>
+                    </div>
+                </article>
+
+                <article id="content-portfolio" class="content closed">
+                    <div class="inside-content">
+                        <div class="container_main" id="container_title">
+                            <h2 class="title titlePorfo" data-section="portfolio" data-value="portfolio" id="title">Proyectos</h2>
+                        </div>
+                        <div class="container_proyects">
+                            <div class="container-proyectos">
+                                
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj01.jpg" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname1" class="namePorta">Agencia de Viaje - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description">Proyecto web sobre Agencia donde podrás comprar boletos de avión, paquetes de estadias y reservas de hospedaje. </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_js_Travel_Agency/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_js_Travel_Agency" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj02.webp" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname2" class="namePorta">Alquiler de Alojamiento - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description2">Proyecto web sobre una plataforma digital dedicada a la oferta de alojamientos a particulares y turísticos (alquiler vacacional) . </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_js_Airbnb-Layout/" target="_blank">
+                                                <i class="fa-regular fa-eye" target="_blank"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_js_Airbnb-Layout" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj03.webp" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname3" class="namePorta">Ecommerce Aguacate - <span>Maqueta - API</span></h3>
+                                        <p data-section="portfolio" data-value="description3">Proyecto web sobre Ecommerce con venta de Productos Organicos (Aguacates) con resetas para preparar con dichos productos. </p>
+                                        <p class="herramientas">Html - Css - Javascript</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Proyecto03_API/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Proyecto03_API" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj04.webp" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname4" class="namePorta">Tienda de Cafe - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description4">Proyecto web sobre tienda de venta de Cafe y sus derivados, servicios y sus productos. Ventas al mayor y al por menor.  </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_Coffe_Webside_Layout-/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_Coffe_Webside_Layout-" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj05.webp" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" data-value="webname5" class="namePorta">Portafolio - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description5">Pagina web diseñada para mostrar las diferentes paginas de mis inicios. En ellas se podra observar diferentes tipos de maquetación. </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Projects_html_css/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Projects_html_css" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj06.webp" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 class="namePorta">CV - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description6">Maquetacion sobre un Curriculun Vitae, el mismo es a adaptable a diferentes tipos de dispositivos. </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_CV/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_CV" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj07.jpg" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" class="namePorta" data-value="webname7">Carrito de Compra - <span>Javascript</span></h3>
+                                        <p data-section="portfolio" data-value="description7">Pagina web diseñada para mostrar Productos a comprar y ser mostrados en un carrito de compras. En ellas se podra observar el uso de Javascript.</p>
+                                        <p class="herramientas">Javascript</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Project-_Carrito_de_Compra_Js/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Project-_Carrito_de_Compra_Js" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img_card">
+                                        <img src="assets/img/proyectos/pj09.jpg" alt="Imagen del proyecto">
+                                    </div>
+                                    <div class="description_card">
+                                        <h3 data-section="portfolio" class="namePorta" data-value="webname8">Envio de Email - <span>Javascript</span></h3>
+                                        <p data-section="portfolio" data-value="description8">Simulador de Envio de Email. Proporciona validaciones en cada campo de entrada y utiliza un spinner externo.</p>
+                                        <p class="herramientas">Javascript</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Email_Simulator/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Email_Simulator" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="content-experiencia" class="content closed">
+                    <div class="inside-content">
+                        <div class="container_education titleLineCursos" id="container_title">
+                            <div class="icon_text">
+                                <span class="colorletter"><i class="fas fa-file-alt iconUniversity"></i></span>
+                                <h2 class="resumen titleCursos" data-section="resumen" data-value="educaction">Experiencia</h2>
+                            </div>  
+                        </div>
+                        <div class="containerResumenAll">
+                            <div class="containerResumen">
+                                <ul>
+                                    <li class="resumen_experiencia">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Microsyslabs</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2020 - 2021</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Analista Desarrollador</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <p class="cantidadCursos"><span data-section="resumen1" data-value="cCantidad">Análisis y desarrollo de IVR, chat bots, con herramientas basadas en PHP, según la necesidad del cliente, también aporte activamente en el desarrollo de un CRM de la empresa que se estaba desarrollando en PHP como herramienta de trabajo para el backend y para el frontend Vue.js un apetecido framework de javascript.</span></p>
+                                        </div> 
+                                    </li> 
+                                    <li class="resumen_experiencia">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">EBFACTORY</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - 2022</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Desarrollador de software</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <p class="cantidadCursos"><span data-section="resumen1" data-value="cCantidad">Responsable de mantener y desarrollar nuevas funcionalidades para proyectos del Inter-American Development Bank. Aplicando tecnologías como php,drupal,mysql,git, y además siguiendo metodologías ágiles - scrum.</span></p>
+                                        </div> 
+                                    </li><br>   
+                                    <li class="resumen_experiencia-max-texto">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Microsyslabs</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2023 - Actualidad</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Desarrollador full stack</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <p class="cantidadCursos"><span data-section="resumen1" data-value="cCantidad">desarrollador de software web con experiencia en la creación de aplicaciones eficientes y escalables. Mi enfoque principal se centra en el uso de tecnologías modernas, como Slim (PHP) para la construcción del backend, Vue.js para el desarrollo del frontend y MySQL para la gestión de bases de datos. También tengo experiencia trabajando con Node.js y Express para crear APIs y servicios robustos.Soy responsable de mantener y desarrollar nuevas funcionalidades para proyectos de la compañía. Estoy comprometido con la mejora continua y la adopción de las mejores prácticas de desarrollo para garantizar el éxito de cada proyecto en el que participó.</span></p>
+                                        </div> 
+                                    </li>   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="content-blog" class="content closed">
+                    <div class="inside-content">
+                        <div class="about-title lineBlog" id="container_title">
+                            <h2 class="title titleBlog" data-section="blog" data-value="textBlog" id="title">Blog</h2>
+                        </div>
+                        <div class="containerFullBlog">
+                            <div class="blog"> 
+                                <a href="https://diegublog.com/mas-alla-del-comienzo-continuando-mi-viaje-en-el-desarrollo-web/" target="_blank" class="link_card" id="btn_B01" > 
+                                    <div class="card_blog">
+                                        <div class="containerImg-blog">
+                                            <img src="assets/img/Blog/post03.jpg" alt="Imagen del post">
+                                        </div>
+                                        <div class="containerText-blog">
+                                            <h3 class="date">
+                                                18/09/2022
+                                            </h3>
+                                            <h2 class="title-blog" data-section="blog" data-value="articuleText" >Más Allá del Comienzo: Continuando mi Viaje en el Desarrollo Web</h2>
+                                            <p class="text_blog" data-section="blog" data-value="text">En caso de que te hayas perdido mi última publicación, te animo a echarle un vistazo: Parte I del Post. Ahí te compartía cómo encontrar el...</p>
+                                        </div>                           
+                                    </div>
+                                </a>
+                                <a href="https://diegublog.com/el-viaje-empieza-aqui-mi-travesia-en-el-desarrollo-web-inicia/" target="_blank" class="link_card link_card1" id="btn_B01" >
+                                    <div class="card_blog">
+                                        <div class="containerImg-blog">
+                                            <img src="assets/img/Blog/post02.jpg" alt="Imagen del post">
+                                        </div>
+                                        <div class="containerText-blog">
+                                            <h3 class="date">
+                                                04/09/2023
+                                            </h3>
+                                            <h2 class="title-blog title-blog1" data-section="blog" data-value="articuleText2">El Viaje Empieza Aquí: Mi Travesía en el Desarrollo Web Inicia.</h2>
+                                            <p class="text_blog text_blog1" data-section="blog" data-value="text2">Siempre me han comentado que mi habilidad para escuchar y conectar con las personas es una característica especial que poseo. Y es cierto, tengo esa capacidad...</p>
+                                        </div> 
+                                    </div>                           
+                                </a>
+                                <a href="https://diegublog.com/superando-el-miedo-un-paso-a-la-vez/" target="_blank" class="link_card link_card2" id="btn_B01" >
+                                    <div class="card_blog">
+                                        <div class="containerImg-blog">
+                                            <img class="imgblog3" src="assets/img/Blog/post01.jpg" alt="Imagen del post">
+                                        </div>
+                                        <div class="containerText-blog">
+                                            <h3 class="date">
+                                                21/08/2023
+                                            </h3>
+                                            <h2 class="title-blog title-blog2" data-section="blog" data-value="articuleText3">Entre el Miedo y Por Qué No Es un Blog Más.  </h2>
+                                            <p class="text_blog text_blog2" data-section="blog" data-value="text3">Descubriendo la Importancia de Escribir. ¿Alguna vez has sentido esa chispa de emoción mezclada con miedo cuando te asomas al borde de lo desconocido? Hola, soy...</p>
+                                        </div> 
+                                    </div> 
+                                </a>                         
+                            </div>                            
+                        </div> 
+                    </div>
+                </article>
+
+                <article id="content-resumen" class="content closed">
+                    <div class="inside-content">
+                        <div class="text_resumen titleLineEstudios" id="container_title">
+                            <h2 class="title titleEstudios" data-section="resumen" data-value="resume" id="title">Estudios</h2>
+                        </div>
+                        <div class="container_education titleLineCursos" id="container_title">
+                            <div class="icon_text">
+                                <span class="colorletter"><i class="fas fa-university iconUniversity"></i></span>
+                                <h2 class="resumen titleCursos" data-section="resumen" data-value="educaction">Cursos</h2>
+                            </div>  
+                        </div>
+                        <div class="containerResumenAll">
+                            <div class="containerResumen">
+                                <ul>
+                                    <li class="resumen_education">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Platzi</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - 2023</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación En Línea</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen" data-value="htmlCss">HTML y CSS a Profundidad</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">16 </span><span data-section="resumen" data-value="cCantidad">Cursos</span>  - <span class="horas">83 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://platzi.com/web-frontend/?school=_escuela_escuela-web_" target="_blank" data-section="resumen1" data-value="btnRuta">Conocer Ruta</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="./estudios/certificados.html" target="_blank">
+                                                <i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li> 
+                                    <li class="resumen_education">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Platzi</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen1" data-value="nameCurso">JavaScript a Profundidad</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">21 </span><span data-section="resumen1" data-value="cCantidad">Cursos</span> - <span class="horas">73 </span><span data-section="resumen1" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://platzi.com/web-javascript/?school=_escuela_escuela-web_" target="_blank" data-section="resumen1" data-value="btnRuta">Conocer Ruta</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosJavascript.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>    
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Udemy</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen3" data-value="nameCurso">JavaScript Moderno</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">01 </span><span data-section="resumen3" data-value="cCantidad1">Curso</span> - <span class="horas">50 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://www.udemy.com/course/crea-una-pagina-web/" target="_blank" data-section="resumen" data-value="btnRuta">Conocer curso</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosUdemy.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>  
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Edteam</h4>
+                                            <p class="date">2019 - 2020</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen4" data-value="nameCurso">Desarrollo Web</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">07 </span><span data-section="resumen" data-value="cCantidad">Cursos</span> - <span class="horas">40 </span><span data-section="resumen1" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://ed.team/" target="_blank" data-section="resumen4" data-value="btnRuta">Conocer cursos</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosEdteam.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>      
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Google Active</h4>
+                                            <p class="date">2019</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>          
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen5" data-value="nameCurso">Introduccion Desarrollo Web I / II</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">01 </span><span data-section="resumen3" data-value="cCantidad1">Curso</span> - <span class="horas">10 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://learndigital.withgoogle.com/digitalgarage/courses" target="_blank" data-section="resumen" data-value="btnRuta">Conocer cursos</a>
+                                        </button>
+
+                                        <div class="certificate">
+                                            <a href="estudios/certificadosGoogle.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
+                                    </li>    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="content-contact" class="content closed">
+                    <div class="inside-content">
+                        <div class="inside">
+                            <div id="container_title">
+                                <h2 class="title" data-section="contactMe" data-value="contact" id="title">Escríbeme</h2>
+                            </div>
+                            <div class="mainConcta">
+                                <div class="main_btn">
+                                    <a class="btn_contact btn1" href="mailto:alejandrorn.dev@gmail.com" target="_blank" class="btn">Email me</a>
+                                    <a class="btn_contact btn123" href="https://github.com/alejandrorndev" target="_blank" class="btn">Github</a>&nbsp &nbsp
+                                    <a class="btn_contact btn123" href="https://www.linkedin.com/in/alejandro-stiven-restrepo-naranjo-2bb429186/e/" class="btn" target="_blank">Linkedin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

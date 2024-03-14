@@ -1,0 +1,142 @@
+@media screen and (max-width: 1024px) {
+    .container-main {
+        position: relative;
+        height: 715vh;
+        border: none;
+    }
+    .container-main .container-full {
+        width: 70%;
+        margin: 0 auto 10px auto;
+        display: block;
+        overflow:initial;
+        position: absolute;
+        top: 5rem;
+    }
+    .container-main .container-full .container-menu {
+        height: 90%;
+    }
+    .container-main .container-full .container-header {
+        position: absolute;
+        top: 0;
+        left: 15%;
+        max-width: 580px;
+        max-height: 600px;
+        border-radius: 5px;
+    }
+    .container-header .pictureMe .me img {
+        width: 146px;
+        height: 146px;
+    }
+    .container-main .container-full .container-information {
+        height: auto;
+        left: 16%;
+        max-width: 580px;
+        max-height: auto;
+    }
+    .content {
+        height: auto;
+        position: initial;
+        z-index: 100;
+    }
+    .container-main .container-full .container-information #content-home {
+        display: none;
+        height: auto;
+    }
+    .content.closed {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container_switch {
+        width: 50%;
+        height: 54px;
+        border-bottom: 1px solid var(--color-line);
+    }
+    .linea_horizontal {
+        display: none;
+    }
+    .container-main {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+    .container-main .container-full {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        position: initial;
+    }
+    .container-main .container-full .container-menu {
+        width: 100%;
+        max-width: 580px;
+        height: 90px;
+        margin: 0 auto 5rem auto;
+    }
+    .container-main .container-full .container-header {
+        top: 100px;
+        height: 765px;
+        position: initial;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .container-main .container-full .container-information {
+        position: initial;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;        
+    }
+    #content-about, #content-resumen, #content-portfolio, #content-blog, #content-experiencia{
+        position: initial;
+    }
+    .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
+        width: 250px;
+    }
+    .container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .inside-content .box-information {
+        flex-wrap: wrap;
+        line-height: 4rem;
+    }
+    #content-portfolio, #content-blog, #content-experiencia {
+        overflow-y: initial;
+    }
+    form input {
+        width: 100%;
+    }
+    .container_form .btn-enviar {
+        border: 1px solid var(--color-primary);
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    .tollsIcons {
+        width: 20%;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #content-about {
+        overflow-y: initial;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-main .container-full .container-menu .menu-container .menu-btn .textmenu  span {
+        display: none;
+    }
+    #content-about{
+        overflow-y: initial;
+    }
+}

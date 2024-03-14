@@ -1,0 +1,433 @@
+@import "../css/menu.css";
+@import "../css/header.css";
+@import "../css/information.css";
+@import "../css/aboutme.css";
+@import "../css/resumen.css";
+@import "../css/portafolio.css";
+@import "../css/blog.css";
+@import "../css/contact.css";
+@import "../css/burbujas.css";
+@import "../css/juego.css";
+
+/* @import "/css/mediaqueri.css"; */
+
+:root {
+    --color-primary:    #FBB03B;
+    --color-secundary:  #1A1A1A;
+    --color-bg:         #31313a;
+    --bg-color:         rgba(251, 177, 59, 0.205);
+
+    --color-secunday:   #ffffff;
+    --color-font:       #EEEEEE;
+    --color-font-dark:  #FFFFFF8C;
+    --color-line:       rgba(238, 238, 238, 0.300);
+    --color-font-normal: #8e9ba4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: auto;
+    font-size: 1.5rem;
+    background: #17171b;
+    transition: 0.3s ease all;
+}
+
+body.ligth {
+    background:#c5c3c3;
+}
+
+.container-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/****** ***** *****switch***** ***** *****  */
+.container_switch {
+    width: 100%;
+    height: 74px;
+    border-bottom: 1px solid var(--color-line);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch {
+    background: #eeeeee;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+.switch.activo {
+    background: var(--color-primary);
+    color: #000;
+}
+.switch.activo::after {
+    right: 0;
+    left: unset;
+} 
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    /* display: block; */
+    background: none;
+    color: #fff;
+    /* background-color: #eeeeee; */
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch span .ico_dark, .ico_ligth {
+    width: 20px;
+    height: 20px;
+}
+/****** ***** *****switch***** ***** *****  */
+.container-main .container-full {
+    width: 95%;
+    max-width: 1268px;
+    height: 90vh;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+**********/* INFORMATION-SLIDER */**********
+.container-full{
+	display: flex;
+	position: relative;
+	width: 100vw !important;
+	overflow-x: hidden;
+}
+.container-information {
+    width: 100%;
+    height: 92%;
+    /* max-height: 644px; */
+    position: relative;
+    border-radius: 0 3px 3px 0;
+}
+.content{
+    width: 100%;
+	display: inline-flex;
+	height: 100vh;
+	position: absolute;
+	transition: all 3s ease-out;
+}
+.content.open{
+	right: 0 !important;
+	opacity: 1;
+	z-index: 3;
+}
+.content.closed {
+	right: 100% !important;
+	opacity: .3;
+	z-index: 1;
+}
+#content-home{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg);
+    transition: 1s ease all;
+}
+#content-about{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg);
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+    transition: 1s ease all;
+}
+#content-about::-webkit-scrollbar {
+    width: 5px;
+}
+#content-about::-webkit-scrollbar-thumb {
+    background-color: var(--color-font-dark);
+    border-radius: 5px;
+}
+body.ligth #content-about::-webkit-scrollbar-thumb {
+    background: var(--color-secundary);
+}
+#content-resumen{
+    width: 100%;
+    height: 100%;
+	background-color: var(--color-bg);
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+    transition: 1s ease all;
+}
+#content-resumen::-webkit-scrollbar {
+    width: 5px;
+}
+#content-resumen::-webkit-scrollbar-thumb {
+    background-color: var( --color-font-dark);
+    border-radius: 5px;
+}
+body.ligth #content-resumen::-webkit-scrollbar-thumb {
+    background: var(--color-secundary);
+}
+body.ligth .titleCursos {
+    color: var(--color-bg);
+}
+#content-portfolio{
+    width: 100%;
+    height: 100%;
+	background-color: var(--color-bg);
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+    transition: 1s ease all;
+}
+#content-portfolio::-webkit-scrollbar {
+    width: 5px;
+}
+#content-portfolio::-webkit-scrollbar-thumb {
+    background-color: var( --color-font-dark);
+    border-radius: 5px;
+}
+body.ligth #content-portfolio::-webkit-scrollbar-thumb  {
+    background: var(--color-secundary);
+}
+#content-blog{
+    width: 100%;
+    height: 100%;
+	background-color: var(--color-bg);
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+    transition: 1s ease all;
+}
+#content-experiencia {
+    width: 100%;
+    height: 100%;
+	background-color: var(--color-bg);
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+    transition: 1s ease all;
+}
+#content-contact{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg);
+    transition: 1s ease all;
+}
+#content-contact::-webkit-scrollbar {
+    width: 5px;
+}
+#content-contact::-webkit-scrollbar-thumb {
+    background-color: var( --color-font-dark);
+    border-radius: 5px;
+}
+body.ligth #content-contact::-webkit-scrollbar-thumb  {
+    background: var(--color-secundary);
+}
+#content-blog::-webkit-scrollbar {
+    width: 5px;
+}
+#content-blog::-webkit-scrollbar-thumb {
+    background-color: var( --color-font-dark);
+    border-radius: 5px;
+}
+body.ligth #content-blog::-webkit-scrollbar-thumb  {
+    background: var(--color-secundary);
+}
+body.ligth .menu-container {
+    background:#fff;
+}
+body.ligth .menu-container button {
+    background:#fff;
+}
+body.ligth .menu-container button i, .textmenu {
+    color: var(--color-bg);
+}
+body.ligth .menu-container button .textmenu {
+    color: var(--color-bg);
+}
+body.ligth .menu-container .flags {
+    background:#fff;
+}
+body.ligth #content-home {
+    background:#fff;
+}
+body.ligth #content-about {
+    background:#fff;
+}
+body.ligth #content-resumen {
+    background:#fff;
+}
+body.ligth #content-portfolio {
+    background:#fff;
+}
+body.ligth #content-blog {
+    background:#fff;
+}
+body.ligth #content-contact {
+    background:#fff;
+}
+#container_title {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid var(--color-line);
+}
+#title {
+    width: 100%;
+    font-size: 2rem;
+    color: var(--color-font);
+    text-align: left;
+}
+body.ligth .menu-picture {
+    border-bottom: 1px solid var(--color-primary);
+}
+body.ligth .container_switch {
+    border-bottom: 1px solid var(--color-primary);
+}
+body.ligth #title {
+    color: var(--color-bg);
+}
+body.ligth #container_title {
+    border-bottom: 1px solid var(--color-primary);
+}
+body.ligth .me::after {
+    background-color: #fff;
+}
+body.ligth .pictureMe {
+    background-color: #fff;
+}
+body.ligth .footer-header {
+    background-color: #fff;
+}
+body.ligth .name-me {
+    color: var(--color-bg);
+}
+body.ligth .social-media a .colorletter {
+    color: var(--color-bg);
+}
+body.ligth .footer-header {
+    border-top: 1px solid var(--color-primary);
+}
+body.ligth .download {
+    border-right: 1px solid var(--color-primary);
+}
+body.ligth .cvdownload i {
+    color: var(--color-bg);
+}
+body.ligth .cvdownload .descv {
+    color: var(--color-bg);
+}
+body.ligth .contact-me i {
+    color: var(--color-bg);
+}
+body.ligth .contact-me .descv {
+    color: var(--color-bg);
+}
+body.ligth .text-about {
+    color: var(--color-bg);
+}
+body.ligth .information-aboutme p {
+    color: var(--color-bg);
+}
+body.ligth .containerResumen ul li {
+    border: 1px solid var(--color-primary);
+}
+body.ligth .containerResumen ul li p {
+    color: var(--color-bg);
+}
+body.ligth .containerResumen ul li .university {
+    color: var(--color-bg);
+}
+body.ligth .containerResumen ul li .ruta {
+    color: var(--color-bg);
+}
+body.ligth .link_card {
+    background-color: var(--color-font);
+}
+body.ligth .namePorta {
+    color: var(--color-bg);
+}
+body.ligth .codigo a {
+    color: var(--color-bg);
+}
+body.ligth .containerImg-blog {
+    background: var(--color-font);
+}
+body.ligth .containerText-blog {
+    background: var(--color-font);
+}
+body.ligth .containerText-blog .text_blog {
+    color: var(--color-bg);
+}
+body.ligth .containerText-blog .title-blog {
+    color: var(--color-primary);
+}
+body.ligth .main_btn .btn_contact {
+    color: var(--color-bg);
+}
+.colorletter {
+    color: var(--color-primary);
+}
+.title::first-letter {
+    color: var(--color-primary);
+}
+.diegoletter {
+    font-size: 2rem;
+}
+
+/*cursor*/
+.cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+    z-index: 10000;
+}
+  
+.cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #c6c6c6;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+    z-index: 10000
+}

@@ -1,0 +1,112 @@
+{
+   "menu": {
+      "home": "Inicio",
+      "about": "Sobre Mi",
+      "resumen": "Estudios",
+      "portfolio": "Portafolio",
+      "blog": "Blog",
+      "contact": "Contáctame"
+   },
+
+    "header": {
+      "ocupation": "Desarrollador Web."
+   },
+
+    "footer-header": {
+      "download": "Descargar CV",
+      "contact": "Contáctame"
+   },
+
+   "about-me": {
+      "aboutme":"Sobre Mí",
+      "name": "Nombre",
+      
+      "description": "¿Que tal Mundo? mi nombre es <span>Diego Gutiérrez</span>, pero puedes llamarme <span>Diegu</span>. Soy un Frontend Developer en formación con más de 20 proyectos personales y una actitud constante de crecimiento. Mi experiencia con <span>HTML</span> me ha permitido crear estructuras sólidas y bien formadas en mis proyectos, mientras que mis conocimientos en <span>CSS</span> me han ayudado a darles un aspecto atractivo y profesional. Además, el uso de <span>JavaScript</span> me ha permitido añadir interacción y funcionalidad a mis proyectos. <br><br>En mis proyectos anteriores, tuve la oportunidad de trabajar en equipo y en algunos casos como líder, lo que me permitió comprender mejor los objetivos y metas del proyecto y lograr resultados más satisfactorios de manera más eficiente y efectiva. <br><br>Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión</span>. <br><br>Herramientas que utilizo en mis Proyectos:",
+      "residence": "Residencia: Malta",
+      "adress": "Dirección: Sliema",
+      "E-mail": "Correo: diegudeveloper@gmail.com",
+      "interests": "Intereses", 
+      "interests1": "Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que  sumado a un buen acompañante de bebida es una experiencia que no tiene precio.",
+      "interests2": "Otro placer culposo es el viajar y conocer nuevas culturas en compañía de mi esposa, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.",
+      "interests3": "Como soy muy visual me encantan las series y películas, puedo pasar todo un fin de semana en pijama y pidiendo comida para llevar con tal de no salir de la casa si es que estoy en modo onfire de pelis."
+   },
+
+   "resumen": {
+      "resume": "Estudios",
+      "educaction": "Cursos",
+      "date": "2021 - Actualmente",
+      "educactionOnline": "Educacíon En Línea",
+      "htmlCss": "HTML y CSS a Profundidad",
+      "cCantidad": "Cursos",
+      "cHoras": "Horas",
+      "certificates": "Certificados",
+      "btnRuta": "Conocer Curso"
+   },
+
+   "resumen1": {
+      
+      "nameCurso": "Javascript a Profundidad",
+      "cCantidad": "Cursos",
+      "cHoras": "Horas",
+      "btnRuta": "Conocer Ruta"
+   },
+   "resumen3": {
+      "nameCurso": "Javascript Moderno",
+      "cCantidad1": "Curso"
+   },
+   "resumen4": {
+      "nameCurso": "Desarrollo Web",
+      "btnRuta": "Conocer Cursos"
+   },
+   "resumen5": {
+      "nameCurso": "Introduccion Desarrollo Web I"
+   },
+   "resumen6": {
+      "nameCurso": "Introduccion Desarrollo Web II"
+   },
+
+   "portfolio": {
+      "portfolio": "Proyectos",
+      "webname1": "Agencia de Viaje - Maqueta",
+      "description": "Proyecto web sobre Agencia donde podrás comprar boletos de avión, paquetes de estadias y reservas de hospedaje.",
+      "btnsiew": "Ver Demo",
+      "btncode": "Ver Codigo",
+
+      "webname2": "Alquiler de Alojamiento - Maqueta",
+      "description2": "Proyecto web sobre una plataforma digital dedicada a la oferta de alojamientos a particulares y turísticos (alquiler vacacional) .",
+      
+      "webname3": "Ecommerce Aguacate - Maqueta - API",
+      "description3": "Proyecto web sobre Ecommerce con venta de Productos Organicos (Aguacates) con resetas para preparar con dichos productos. ",
+
+      "webname4": "Tienda de Café - Maqueta",
+      "description4": "Proyecto web sobre tienda de venta de Cafe y sus derivados, servicios y sus productos. Ventas al mayor y al por menor. ",
+
+      "webname5": "Portafolio - Maqueta",
+      "description5": "Pagina web diseñada para mostrar las diferentes paginas de mis inicios. En ellas se podra observar diferentes tipos de maquetación.",
+   
+      "description6": "Maquetacion sobre un Curriculun Vitae, el mismo es a adaptable a diferentes tipos de dispositivos. ",
+
+      "webname7": "Carrito de Compra - Javascript",
+      "description7": "Pagina web diseñada para mostrar Productos a comprar y ser mostrados en un carrito de compras. En ellas se podra observar el uso de Javascript.",
+
+      "webname8": "Simulador Email - Javascript",
+      "description8": "Simulador de Envio de Email. Proporciona validaciones en cada campo de entrada y utiliza un spinner externo."
+   },
+
+   "blog": {
+      "textBlog": "Blog",
+      "articuleText": "Érase una vez un desarrollador web Parte I.",
+      "text": "Si tu sueño es ser desarrollador web o ya emprendiste el camino y te sientes estancado, te invito a leer mi historia, con la que seguro te sentirás identificado...",
+
+      "articuleText2": "Érase una vez un desarrollador web Parte II.",
+      "text2": "En mi último post te contaba que lo primordial para comenzar en el maravilloso mundo del desarrollo web es tener claro lo que más te gusta del área...",
+
+      "articuleText3": "Mi Marca Personal",
+      "text3": "PROXIMAMENTEForjando mi identidad digital: Destacando como desarrollador frontend y construyendo una marca personal en evolución..."
+   },
+
+   "contactMe": {
+      "contact": "Escríbeme"
+    }
+   
+}

@@ -1,0 +1,56 @@
+.container_map {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.mainConcta {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn_contact {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    color: var(--color-font);
+    margin-top: 1rem;
+    display: inline-block;
+    padding-top: 5px;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid var(--color-primary);
+    transition: all 0.3s ease;
+}
+.btn_contact:hover {
+    box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
+}
+.btn1 {
+    width: 70%;
+}
+.btn123 {
+    width: 30%; 
+}
+.btn12 {
+    width: 40%; 
+} 
+
+@media screen and (min-width: 1024px) {
+    .mainConcta {
+        height: 500px;
+    }
+    .btn_contact {
+        height: 5rem;
+        padding-top: 15px;
+        margin-bottom: 1rem;
+    }
+    .main_btn {
+        width: 70%;
+    };
+}

@@ -1,0 +1,110 @@
+{
+    "menu": {
+       "home": "Home",
+       "about": "About Me",
+       "resumen": "Resume",
+       "portfolio": "Portfolio",
+       "blog": "Blog",
+       "contact": "Contact"
+    }, 
+
+    "header": {
+      "ocupation": "Frontend - Developer"
+    },
+
+    "footer-header": {
+      "download": "Download CV",
+      "contact": "Contact Me"
+    },
+
+    "about-me": {
+      "aboutme":"About Me",
+      "name": "Name",
+      "description": "My name is <span>Diego Gutierrez</span>, but you can call me <span>Diegu</span>. I'm a Frontend Developer in training with more than 20 personal projects and a constant attitude of growth. My experience with <span>HTML</span> has allowed me to create solid and well-formed structures in my projects, while my knowledge in <span>CSS</span> has helped me to give them an attractive and professional look. In addition, the use of <span>JavaScript</span> has allowed me to add interaction and functionality to my projects.<br><br>In my previous projects, I had the opportunity to work in a team and in some cases as a leader, which allowed me to better understand the objectives and goals of the project and achieve more satisfactory results in a more efficient and effective manner.<br><br>True to my core value: <span>#MakeItHappen</span>, and I want to be part of the community that changes the world, the people who create technology, the people we have always wanted to be, <span>but above all to be my best version</span>.</span><br><br> Tools I use in my Projects:",
+      "residence": "Residence: Malta",
+      "adress": "Address: Sliema",
+      "E-mail": "E-mail: diegudeveloper@gmail.com",
+      "interests": "Interests",
+      "interests1": "One of the things I enjoy the most is the fact of exploring new gastronomic flavors, it is not the simple fact of eating, it is enjoying the explosion of flavors that you have on your palate, which added to a good drink is a priceless experience.",
+      "interests2": "Another guilty pleasure is traveling and getting to know new cultures with my wife, adding new knowledge and experiences to our lives is a learning experience that is never forgotten.",
+      "interests3": "As a very visual person I love series and movies, I can spend a whole weekend in my pajamas and ordering take-out so as not to leave the house if I'm in movie onfire mode."
+   },
+
+   "resumen": {
+      "resume": "Resume",
+      "educaction": "Courses",
+      "date": "2021 - Currently",
+      "educactionOnline": "Online Education",
+      "htmlCss": "HTML and CSS in Depth",
+      "cCantidad": "Courses",
+      "cHoras": "Hors",
+      "certificates": "Certificates",
+      "btnRuta": "Know Course"
+    },
+
+    "resumen1": {
+      
+      "nameCurso": "Deep Javascript",
+      "cCantidad": "Courses",
+      "cHoras": "Hors",
+      "btnRuta": "View Route"
+    },
+    "resumen3": {
+      "nameCurso": "Modern JavaScript",
+      "cCantidad1": "Course"
+    },
+    "resumen4": {
+      "nameCurso": "Web Bevelopment",
+      "btnRuta": "Know Courses"
+    },
+    "resumen5": {
+      "nameCurso": "Introduction Web Development I"
+    },
+    "resumen6": {
+      "nameCurso": "Introduction Web Development II"
+    },
+
+    "portfolio": {
+      "portfolio": "Projects",
+      "webname1": "Travel Agency - Maqueta",
+      "description": "Agency web project where you can buy plane tickets, stay packages and lodging reservations.",
+      "btnsiew": "View Demo",
+      "btncode": "View Code",
+
+      "webname2": "Accommodation Rental - Maqueta",
+      "description2": "Web project on a digital platform dedicated to offering accommodation to individuals and tourists (vacation rental).",
+
+      "webname3": "Ecommerce Avocado - Maqueta - API",
+      "description3": "Web project on Ecommerce with sale of Organic Products (Avocados) with recipes to prepare with said products.",
+
+      "webname4": "Coffee Web - Maqueta",
+      "description4": "Web project about a shop selling coffee and its derivatives, services and its products. Wholesale and retail sales.",
+
+      "webname5": "Portfolio - Maqueta",
+      "description5": "Web page designed to show the different pages of my beginnings. In them you can see different types of layout.",
+    
+      "description6": "Layout on a Curriculum Vitae, it is adaptable to different types of devices.",
+
+      "webname7": "Shopping Cart - Javascript",
+      "description7": "Web page designed to show products to buy and be displayed in a shopping cart. In them you can see the use of Javascript.",
+
+      "webname8": "Email Simulator - Javascript",
+      "description8": "Email Sending Simulator. It provides validations on each input field and uses an external spinner."
+    },
+
+   "blog": {
+      "textBlog": "Blog",
+      "articuleText": "Once upon a time there was a Web Developer Part I.",
+      "text": "If your dream is to be a web developer or you have already started the path and you feel stuck, I invite you to read my story, with which you will surely feel identified...",
+
+      "articuleText2": "Once upon a time there was a Web Developer Part II.",
+      "text2": "In my last post I told you that the main thing to start in the wonderful world of web development is to be clear about what you like most about the area...",
+
+      "articuleText3": "My Personal Brand",
+      "text3": "Forging my digital identity: Excelling as a frontend developer and building an evolving personal brand..."
+    },
+
+    "contactMe": {
+      "contact": "Write me"
+    }
+ }

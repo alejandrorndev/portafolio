@@ -1,0 +1,149 @@
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.8); Fondo semitransparente */
+    background-color: rgb(0, 0, 0); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.l {
+    color: var(--color-primary);
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 0.2s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #919191;
+}
+
+.o {
+color: var(--color-primary);
+opacity: 0;
+animation: pass 2s ease-in-out infinite;
+animation-delay: 0.4s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+
+.a {
+color: var(--color-primary);
+opacity: 0;
+animation: pass 2s ease-in-out infinite;
+animation-delay: 0.6s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+
+.d {
+color: var(--color-primary);
+opacity: 0;
+animation: pass 2s ease-in-out infinite;
+animation-delay: 0.8s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+
+.i {
+color: var(--color-primary);
+opacity: 0;
+animation: pass 2s ease-in-out infinite;
+animation-delay: 1s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+
+.n {
+color: var(--color-primary);
+opacity: 0;
+animation: pass 2s ease-in-out infinite;
+animation-delay: 1.2s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+
+.g {
+color: var(--color-primary);
+opacity: 0;
+animation: pass 2s ease-in-out infinite;
+animation-delay: 1.4s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+
+.d1 {
+color: var(--color-primary);
+opacity: 0;
+animation: pass1 2s ease-in-out infinite;
+animation-delay: 1.6s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+
+.d2 {
+color: var(--color-primary);
+opacity: 0;
+animation: pass1 2s ease-in-out infinite;
+animation-delay: 2s;
+letter-spacing: 0.5em;
+text-shadow: 2px 2px 3px #919191;
+}
+  
+@keyframes pass {
+0% {
+    opacity: 1;
+}
+
+50% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+}
+
+@keyframes pass1 {
+0% {
+    opacity: 1;
+}
+
+50% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+}
+
+/* Estilos específicos para pantallas mayores o iguales a 1024px */
+@media only screen and (min-width: 1024px) {
+    .loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block; /* Mostrar el loader en escritorio */
+        z-index: 9999; /* Asegurar que esté sobre otros elementos */
+    }
+
+    .content {
+        display: block; /* Mostrar el contenido en escritorio */
+    }
+}
+
+/* Ocultar el loader en modo móvil */
+@media only screen and (max-width: 1023px) {
+    .loader-wrapper {
+        display: none !important; /* !important para asegurar la prioridad */
+    }
+
+    .content {
+        display: block; /* Mostrar el contenido en modo móvil */
+    }
+}
