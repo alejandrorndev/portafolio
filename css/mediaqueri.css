@@ -91,7 +91,7 @@
         height: auto;
         margin: 0 auto;        
     }
-    #content-about, #content-resumen, #content-portfolio, #content-blog, #content-experiencia{
+    #content-about, #content-resumen, #content-portfolio, #content-experiencia{
         position: initial;
     }
     .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
@@ -107,7 +107,7 @@
         flex-wrap: wrap;
         line-height: 4rem;
     }
-    #content-portfolio, #content-blog, #content-experiencia {
+    #content-portfolio, #content-experiencia {
         overflow-y: initial;
     }
     form input {
