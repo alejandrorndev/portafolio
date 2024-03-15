@@ -258,14 +258,14 @@
 @media screen and (min-width: 1024px) {
     .resumen_experiencia-max-texto {
         width: 45%;
-        height: 550px;
+        height: 580px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .resumen_experiencia-max-texto {
         max-width: 250px;
-        height: 550px;
+        height: 580px;
     }
     .date {
         width: 30%;

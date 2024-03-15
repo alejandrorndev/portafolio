@@ -54,8 +54,9 @@ btnswitch.addEventListener('click', () => {
 	const logoPithonTools = document.querySelector('.logoPithonTools');
 	const logoNodeTools = document.querySelector('.logoNodeTools');
 	const logoDockerTools = document.querySelector('.logoDockerTools');
+	const logoExpressTools = document.querySelector('.logoExpressTools');
 
-
+	
 	
 	
 
@@ -74,6 +75,8 @@ btnswitch.addEventListener('click', () => {
 		logoPithonTools.src = 'assets/tools/piton.png';
 		logoNodeTools.src = 'assets/tools/node.png';
 		logoDockerTools.src = 'assets/tools/docker.png';
+		logoExpressTools.src = 'assets/tools/express.png';
+		
     } else {
         imagenTools.src = 'assets/tools/htmloff.png';
         logoCssTools.src = 'assets/tools/cssoff.png';
@@ -89,6 +92,7 @@ btnswitch.addEventListener('click', () => {
 		logoPithonTools.src = 'assets/tools/pitonoff.png';
 		logoNodeTools.src = 'assets/tools/nodeoff.png';
 		logoDockerTools.src = 'assets/tools/dockeroff.png';
+		logoExpressTools.src = 'assets/tools/expressoff.png';
 
     }
 });
@@ -111,6 +115,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	const logoPithonTools = document.querySelector('.logoPithonTools');
 	const logoNodeTools = document.querySelector('.logoNodeTools');
 	const logoDockerTools = document.querySelector('.logoDockerTools');
+	const logoExpressTools = document.querySelector('.logoExpressTools');
 
 
 
@@ -128,6 +133,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoPithonTools.src = 'assets/tools/piton.png';
 	logoNodeTools.src = 'assets/tools/node.png';
 	logoDockerTools.src = 'assets/tools/docker.png';
+	logoExpressTools.src = 'assets/tools/express.png';
 
 
 } else {
@@ -145,6 +151,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	const logoPithonTools = document.querySelector('.logoPithonTools');
 	const logoNodeTools = document.querySelector('.logoNodeTools');
 	const logoDockerTools = document.querySelector('.logoDockerTools');
+	const logoExpressTools = document.querySelector('.logoExpressTools');
 
 
 	imagenTools.src = 'assets/tools/htmloff.png';
@@ -161,7 +168,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoPithonTools.src = 'assets/tools/pitonoff.png';
 	logoNodeTools.src = 'assets/tools/nodeoff.png';
 	logoDockerTools.src = 'assets/tools/dockeroff.png';
-
+	logoExpressTools.src = 'assets/tools/expressoff.png';
 }
 
 const buttons = document.querySelectorAll('.menu-btn');
@@ -220,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	function open(btn, div) {
 		if (screen.width <= 1024) {
-			console.log("🚀 ~ file: script.js ~ line 79 ~ open ~ div", div)
+			//console.log("🚀 ~ file: script.js ~ line 79 ~ open ~ div", div)
 			// * es pantalla de telefono
 			div.scrollIntoView({ behavior: 'smooth' })
 			return
