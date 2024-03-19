@@ -55,6 +55,7 @@ btnswitch.addEventListener('click', () => {
 	const logoNodeTools = document.querySelector('.logoNodeTools');
 	const logoDockerTools = document.querySelector('.logoDockerTools');
 	const logoExpressTools = document.querySelector('.logoExpressTools');
+	const logoScrumTools = document.querySelector('.logoScrumTools');
 
 	
 	
@@ -76,6 +77,7 @@ btnswitch.addEventListener('click', () => {
 		logoNodeTools.src = 'assets/tools/node.png';
 		logoDockerTools.src = 'assets/tools/docker.png';
 		logoExpressTools.src = 'assets/tools/express.png';
+		logoScrumTools.src = 'assets/tools/scrum.png';
 		
     } else {
         imagenTools.src = 'assets/tools/htmloff.png';
@@ -93,6 +95,8 @@ btnswitch.addEventListener('click', () => {
 		logoNodeTools.src = 'assets/tools/nodeoff.png';
 		logoDockerTools.src = 'assets/tools/dockeroff.png';
 		logoExpressTools.src = 'assets/tools/expressoff.png';
+		logoScrumTools.src = 'assets/tools/scrumoff.png';
+
 
     }
 });
@@ -116,6 +120,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	const logoNodeTools = document.querySelector('.logoNodeTools');
 	const logoDockerTools = document.querySelector('.logoDockerTools');
 	const logoExpressTools = document.querySelector('.logoExpressTools');
+	const logoScrumTools = document.querySelector('.logoScrumTools');
 
 
 
@@ -134,6 +139,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoNodeTools.src = 'assets/tools/node.png';
 	logoDockerTools.src = 'assets/tools/docker.png';
 	logoExpressTools.src = 'assets/tools/express.png';
+	logoScrumTools.src = 'assets/tools/scrum.png';
 
 
 } else {
@@ -152,6 +158,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	const logoNodeTools = document.querySelector('.logoNodeTools');
 	const logoDockerTools = document.querySelector('.logoDockerTools');
 	const logoExpressTools = document.querySelector('.logoExpressTools');
+	const logoScrumTools = document.querySelector('.logoScrumTools');
 
 
 	imagenTools.src = 'assets/tools/htmloff.png';
@@ -169,6 +176,8 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoNodeTools.src = 'assets/tools/nodeoff.png';
 	logoDockerTools.src = 'assets/tools/dockeroff.png';
 	logoExpressTools.src = 'assets/tools/expressoff.png';
+	logoScrumTools.src = 'assets/tools/scrumoff.png';
+
 }
 
 const buttons = document.querySelectorAll('.menu-btn');
