@@ -175,12 +175,12 @@
         border-bottom: 1px solid var(--color-line);
     } 
     .menu-picture img {
-        width: 30%;
+        width: 64%;
     }
 }
 
 @media screen and (max-width: 450px) {
     .menu-picture img {
-        width: 40%;
+        width: 64%;
     }
 }
