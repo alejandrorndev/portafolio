@@ -217,7 +217,7 @@ body.ligth .titleCursos {
 body.ligth #content-portfolio::-webkit-scrollbar-thumb  {
     background: var(--color-secundary);
 }
-#content-experiencia {
+#content-experiencia{
     width: 100%;
     height: 100%;
 	background-color: var(--color-bg);
@@ -269,6 +269,9 @@ body.ligth #content-portfolio {
     background:#fff;
 }
 body.ligth #content-contact {
+    background:#fff;
+}
+body.ligth #content-experiencia {
     background:#fff;
 }
 #container_title {
