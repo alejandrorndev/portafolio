@@ -92,8 +92,9 @@ Si deseas mejorar o modificar este proyecto, te invito a clonarlo y ejecutarlo e
 
 <h2 style="color: orange;">Colabordores</h2>
 
-- Armando
-- David
+- Alejandro
+- Youtube
+- Diego
 <br><br>
 
 <h2 style="color: orange;">Instrucciones de Uso</h2>
@@ -107,7 +108,7 @@ Si deseas mejorar o modificar este proyecto, te invito a clonarlo y ejecutarlo e
 
 <h2 style="color: orange;">Agradecimientos</h2>
 
-Quiero agradecer a Armando y David por su colaboración en este proyecto. Sin su apoyo, no habría sido posible lograr este resultado.
+Quiero agradecer a Diego por su gran aporte a este proyecto. Sin su apoyo, no habría sido posible lograr este resultado.
 
 ¡Gracias a todos por su tiempo y atención!
 
