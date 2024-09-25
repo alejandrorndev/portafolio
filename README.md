@@ -62,17 +62,18 @@ graph TD;
     Menu --> Cabecera;
     Cabecera --> Cuerpo;
     Cuerpo --> Inicio;
-    Cuerpo --> "Sobre Mí";
+    Cuerpo --> Sobre_Mí;
     Cuerpo --> Portafolio;
     Cuerpo --> Blog;
     Cuerpo --> Estudios;
     Cuerpo --> Contacto;
-    Estudios --> "Detalles de Estudios";
-    "Detalles de Estudios" --> "Rutas y Certificados";
-    Portafolio --> "Detalles de Proyectos";
-    "Detalles de Proyectos" --> "Código Fuente";
-    "Detalles de Proyectos" --> Demo;
-    Contacto --> "Detalles donde Ubicarme";
+    Estudios --> Detalles_de_Estudios;
+    Detalles_de_Estudios --> Rutas_y_Certificados;
+    Portafolio --> Detalles_de_Proyectos;
+    Detalles_de_Proyectos --> Código_Fuente;
+    Detalles_de_Proyectos --> Demo;
+    Contacto --> Detalles_donde_Ubicarme;
+
 ```
 
 
