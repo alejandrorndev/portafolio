@@ -114,5 +114,6 @@ Quiero agradecer a Diego por su gran aporte a este proyecto. Sin su apoyo, no ha
 
 ---
 <br>
-Este proyecto está bajo la licencia [MIT](./LICENSE).
-<br>
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](./LICENSE).
