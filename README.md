@@ -3,8 +3,8 @@
 <details>
 
 <summary style="font-size: 20px">🗣️ Versión en Español</summary>
-
-Portafolio-CV es mi página personal que utilizo para mostrar mis habilidades, destrezas, mi blog personal y mis proyectos.
+<br>
+Portafolio-CV es mi página personal que utilizo para mostrar mis habilidades, destrezas y mis proyectos.
 <br><br>
 
 <h2 style="color: orange;">Tabla de contenidos</h2>
