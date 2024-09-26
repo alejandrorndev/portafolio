@@ -4,7 +4,7 @@
       "about": "Sobre Mi",
       "resumen": "Estudios",
       "portfolio": "Portafolio",
-      "blog": "Blog",
+      "experiencia": "Experiencia",
       "contact": "Contáctame"
    },
 
@@ -21,14 +21,15 @@
       "aboutme":"Sobre Mí",
       "name": "Nombre",
       
-      "description": "¿Que tal Mundo? mi nombre es <span>Diego Gutiérrez</span>, pero puedes llamarme <span>Diegu</span>. Soy un Frontend Developer en formación con más de 20 proyectos personales y una actitud constante de crecimiento. Mi experiencia con <span>HTML</span> me ha permitido crear estructuras sólidas y bien formadas en mis proyectos, mientras que mis conocimientos en <span>CSS</span> me han ayudado a darles un aspecto atractivo y profesional. Además, el uso de <span>JavaScript</span> me ha permitido añadir interacción y funcionalidad a mis proyectos. <br><br>En mis proyectos anteriores, tuve la oportunidad de trabajar en equipo y en algunos casos como líder, lo que me permitió comprender mejor los objetivos y metas del proyecto y lograr resultados más satisfactorios de manera más eficiente y efectiva. <br><br>Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión</span>. <br><br>Herramientas que utilizo en mis Proyectos:",
-      "residence": "Residencia: Malta",
-      "adress": "Dirección: Sliema",
-      "E-mail": "Correo: diegudeveloper@gmail.com",
+      "description": "¿Que tal Mundo? mi nombre es <span> Alejandro Stiven Restrepo Naranjo</span>, pero puedes llamarme  <span>Alejo.</span> Soy una persona autónoma, creativa y disciplinada, flexible ante el cambio y con un alto sentido de responsabilidad tanto en el ámbito profesional como en el personal. Poseo facilidad de adaptación y capacidad para trabajar en equipo, incluso en condiciones de alta presión. Siempre actúo de acuerdo con mis principios y respeto las normas y leyes en cualquier entorno. Me caracterizo por ser eficaz y eficiente, con valores sólidos que guían mi comportamiento. Además, tengo una gran capacidad de desempeño y siempre me distingo por mis buenos modales.<br><br> En el ámbito profesional, he desarrollado habilidades sólidas en <span>HTML</span> para crear estructuras robustas y bien definidas en mis proyectos, mientras que mis conocimientos en <span> CSS </span> me han ayudado a darles un aspecto atractivo y profesional, mientras que mi experiencia en <span> JavaScript</span> me ha permitido agregar interactividad y funcionalidad a mis creaciones. Además, tengo una sólida experiencia trabajando con <span>Node.js</span> y <span>Express</span> para desarrollar aplicaciones backend robustas, así como con <span>PHP</span> para gestionar proyectos de desarrollo web. Mi enfoque versátil me permite adaptarme a diversas herramientas y tecnologías para ofrecer soluciones efectivas y de alta calidad.<br><br>Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión.</span> <br><br>Herramientas que utilizo en mis Proyectos:",
+      "residence": "Residencia: Colombia - Medellín",
+      "adress": "Dirección: Medellín - Caicedo",
+      "E-mail": "Correo: alejandrorn.dev@gmail.com",
       "interests": "Intereses", 
-      "interests1": "Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que  sumado a un buen acompañante de bebida es una experiencia que no tiene precio.",
-      "interests2": "Otro placer culposo es el viajar y conocer nuevas culturas en compañía de mi esposa, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.",
-      "interests3": "Como soy muy visual me encantan las series y películas, puedo pasar todo un fin de semana en pijama y pidiendo comida para llevar con tal de no salir de la casa si es que estoy en modo onfire de pelis."
+      "interests1": "Una de las cosas que más disfruto es acampar y hacer trekking,Explorar las montañas y rincones que tiene nuestro territorio es una experiencia invaluable para mí.",
+      "interests2": "Otro placer culposo es el viajar y conocer nuevas culturas junto con mi compañera de vida, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.",
+      "interests3": "Dado mi gusto por los desafíos mentales, me fascina resolver acertijos y cubos Rubik. Puedo pasar horas concentrado en resolver nuevos enigmas y desentrañar los secretos detrás de cada desafío.",
+      "interests4": "Como soy un apasionado de los videojuegos en línea, y disfruto sumergirme en largas sesiones de juego durante todo el fin de semana. Para mí, no hay nada como la emoción y la diversión que experimento al participar en maratones de juegos desde la comodidad de mi hogar."
    },
 
    "resumen": {
@@ -36,33 +37,32 @@
       "educaction": "Cursos",
       "date": "2021 - Actualmente",
       "educactionOnline": "Educacíon En Línea",
-      "htmlCss": "HTML y CSS a Profundidad",
       "cCantidad": "Cursos",
       "cHoras": "Horas",
-      "certificates": "Certificados",
-      "btnRuta": "Conocer Curso"
+      "certificates": "Certificados"
    },
 
    "resumen1": {
       
-      "nameCurso": "Javascript a Profundidad",
+      "nameCurso": "Python intermedio",
       "cCantidad": "Cursos",
-      "cHoras": "Horas",
-      "btnRuta": "Conocer Ruta"
+      "cHoras": "Horas"
    },
    "resumen3": {
-      "nameCurso": "Javascript Moderno",
+      "nameCurso": "Basico de python",
       "cCantidad1": "Curso"
    },
    "resumen4": {
-      "nameCurso": "Desarrollo Web",
-      "btnRuta": "Conocer Cursos"
+      "nameCurso": "Git y github"
    },
    "resumen5": {
-      "nameCurso": "Introduccion Desarrollo Web I"
+      "nameCurso": "Introducción a la terminal y linea de comandos"
    },
    "resumen6": {
-      "nameCurso": "Introduccion Desarrollo Web II"
+      "nameCurso": "Seguridad informatica"
+   },
+   "resumen7": {
+      "nameCurso": "Profesional de wordpress"
    },
 
    "portfolio": {
@@ -91,18 +91,6 @@
 
       "webname8": "Simulador Email - Javascript",
       "description8": "Simulador de Envio de Email. Proporciona validaciones en cada campo de entrada y utiliza un spinner externo."
-   },
-
-   "blog": {
-      "textBlog": "Blog",
-      "articuleText": "Érase una vez un desarrollador web Parte I.",
-      "text": "Si tu sueño es ser desarrollador web o ya emprendiste el camino y te sientes estancado, te invito a leer mi historia, con la que seguro te sentirás identificado...",
-
-      "articuleText2": "Érase una vez un desarrollador web Parte II.",
-      "text2": "En mi último post te contaba que lo primordial para comenzar en el maravilloso mundo del desarrollo web es tener claro lo que más te gusta del área...",
-
-      "articuleText3": "Mi Marca Personal",
-      "text3": "PROXIMAMENTEForjando mi identidad digital: Destacando como desarrollador frontend y construyendo una marca personal en evolución..."
    },
 
    "contactMe": {
